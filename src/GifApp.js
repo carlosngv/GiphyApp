@@ -7,7 +7,7 @@ const GifApp = () => {
 
     return(
         <>
-            <h1 className="title is-1">Giphy Searcher</h1>
+            <h1 className="title is-1">Gif Search</h1>
             <AddCategory setCategories={ setCategories }/>
             <hr/>
                 { 
