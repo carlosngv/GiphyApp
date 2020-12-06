@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for GifGrid component component should work correctyl 1`] = `
+<Fragment>
+  <h1
+    className="category-title animate__animated animate__backInRight"
+  >
+    Itachi
+  </h1>
+  <div
+    className="card-grid"
+  >
+    Loading...
+  </div>
+</Fragment>
+`;
+
+exports[`Tests for GifGrid component should fetch images and show them correctly, using the custom hook (useFetchGifs) 1`] = `
+<Fragment>
+  <h1
+    className="category-title animate__animated animate__backInRight"
+  >
+    Itachi
+  </h1>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="test"
+      url="https://localhsot.com/camsdkvsdv.jpg"
+    />
+    <GifGridItem
+      id="DEF"
+      key="DEF"
+      title="test2"
+      url="https://localhsot.com/test2.jpg"
+    />
+  </div>
+</Fragment>
+`;

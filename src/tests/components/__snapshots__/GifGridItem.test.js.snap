@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGridItem tests Should show component correctly 1`] = `
+<div
+  className="card animate__animated animate__backInLeft"
+>
+  <div
+    className="card-image"
+  >
+    <figure
+      className="image is-4by3"
+    >
+      <img
+        alt="Test item"
+        src="https://testurl.com"
+      />
+    </figure>
+  </div>
+  <div
+    className="card-content"
+  >
+    <div
+      className="content"
+    >
+      <p>
+        Test item
+      </p>
+    </div>
+  </div>
+</div>
+`;

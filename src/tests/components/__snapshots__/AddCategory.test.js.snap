@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for AddCategory Component should show AddCategory component correctly 1`] = `
+<Fragment>
+  <p />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="input is-rounded"
+      onChange={[Function]}
+      placeholder="Gif"
+      type="text"
+      value=""
+    />
+  </form>
+</Fragment>
+`;

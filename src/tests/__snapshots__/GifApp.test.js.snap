@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for GifApp component Should show component correctly 1`] = `
+<Fragment>
+  <h1
+    className="title is-1"
+  >
+    Gif Search
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+</Fragment>
+`;
+
+exports[`Tests for GifApp component should show category list 1`] = `
+<Fragment>
+  <h1
+    className="title is-1"
+  >
+    Gif Search
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <GifGrid
+    category="Itachi"
+    key="Itachi"
+  />
+  <GifGrid
+    category="Sasuke"
+    key="Sasuke"
+  />
+</Fragment>
+`;
